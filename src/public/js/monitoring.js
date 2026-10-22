@@ -14,7 +14,7 @@ function startMonitoring() {
   memChart = new Chart(document.getElementById('memChart'), {
     type: 'line',
 
-    data: {
+    data: 
       labels: [],
       datasets: [
         {
