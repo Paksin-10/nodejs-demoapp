@@ -5,10 +5,10 @@
 //
 
 const packageJson = JSON.parse(readFileSync(new URL('./package.json', import.meta.url)))
-console.log(`### 🚀 Node.js demo app v${packageJson.version} starting...`)
+console.log(`### 🚀 Node.js demo app v${packageJson.version} starting...`
 
 // Dotenv handy for local config & debugging
-import { config as dotenvConfig } from 'dotenv'
+import  config as dotenvConfig  from 'dotenv'
 dotenvConfig()
 
 import appInsights from 'applicationinsights'
